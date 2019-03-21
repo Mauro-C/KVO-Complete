@@ -1,5 +1,8 @@
 # KVO-Complete
-Modified implementation of the Klinger Volume Oscillator (my personal favorite trading indicator for equities) by Stephen J. Klinger.
+
+**Credit for the algorithm goes to Stephen J. Klinger.**
+
+Modified implementation of the Klinger Volume Oscillator (my personal trading indicator for trading equities).
 
 The KVO uses high, low, close and volume to create a volume force. This volume force (VF) is then turned into an oscillator by taking a fast EMA (exponential moving average) of VF and subtracting a slow EMA of VF. A signal line (KOS), which is an EMA of the Klinger Oscillator (KO), is plotted to trigger trading signals.
 
